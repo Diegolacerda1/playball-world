@@ -3,7 +3,9 @@ import dashboardPage from "../../fixtures/page_objects/dashboard.page";
 
 describe("5 most important Test Cases", () => {
   beforeEach(() => {
+    
     cy.visit("/");
+
   });
 
   it("Should log in with existing credentials - PDL12DL-61", () => {
