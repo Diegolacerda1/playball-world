@@ -21,6 +21,7 @@ class loginPage {
   clickButtonLogOut() {
     this.buttonLogOut.click();
   }
+  
 }
 
 export default new loginPage();
